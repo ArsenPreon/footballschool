@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body">
+    <div id="swup" class="wrapper transition-fade">
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="header__container _container">
+                    <div class="header__body">
+                        <a href="index.html"><img src="images/header/logo.png" alt="header__logo" class="header__logo"></a>
+                        <nav class="header__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="index.html" class="menu__link menu__link-del"><img src="images/header/menu-img.png" alt=""></a></li>
+                                <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="rent.html" class="menu__link">Аренда</a></li>
+                                <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link menu__link-main">Цены</a></li>
+                                <li class="menu__item"><a href="stocks.html" class="menu__link">Акции</a></li>
+                                <li class="menu__item"><a href="news.html" class="menu__link">Новости</a></li>
+                                <li class="menu__item"><a href="about_us.html" class="menu__link">О нас</a></li>
+                                <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <a href="tel:+78123226555" class="header__number" data-da=".menu__list, 800, 1">+7 (812) 322-65-55</a>
+                        <div class="header__links" data-da=".menu__list, 425, 10">
+                            <a href="#" class="header__links-link header__link-telegram icon-telegram"></a>
+                            <a href="#" class="header__links-link header__link-vk icon-vk"></a>
+                            <a href="#" class="header__links-link header__link-phone icon-phone"></a>
+                            <a href="#" class="header__links-link header__link-call" data-da=".menu__list, 600, 11">Заказать звонок</a>
+                        </div>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main transition-fade">
+            <div class="price">
+                <div class="price__container _container">
+                    <div class="price__body">
+                        <div class="price__title">Прайс на Услуги «Фабрики футбола»</div>
+                        <div class="price__navbar">
+                            <div class="price__navbar-list">
+                                <div class="price__navbar-item price__navbar-item-green">Все услуги</div>
+                                <div class="price__navbar-item">Аренда</div>
+                                <div class="price__navbar-item">Инвентарь</div>
+                                <div class="price__navbar-item">Дополнительные услуги</div>
+                                <div class="price__navbar-item">Развлечения</div>
+                            </div>
+                            <button class="price__navbar-btn">
+                                <div class="price__navbar-btn-text">Загрузить .pdf</div>
+                                <img src="images/prices/pdf.svg" alt="price__navbar-btn-icon" class="price__navbar-btn-icon">
+                            </button>
+                        </div>
+                        <div class="price__inner">
+                            <div class="price__item">
+                                <div class="price__title-small">Аренда</div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Аренда поля будни</div>
+                                        <div class="price__date">(с 09:00-18:00)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">4700 ₽ </div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Аренда поля будни</div>
+                                        <div class="price__date">(с 18:00-23:00)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">5900 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Аренда поля будни</div>
+                                        <div class="price__date">(с 23:00-09:00)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">4000 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Аренда поля будни</div>
+                                        <div class="price__date">(с 10:00-23:00)</div>
+                                        <div class="price__weekend">выходной</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">4900 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Аренда поля будни</div>
+                                        <div class="price__date">(с 23:00-10:00)</div>
+                                        <div class="price__weekend">выходной</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">3000 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__item">
+                                <div class="price__title-small">Инвентарь</div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Мяч, размеры «4» или «5»</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 игра</div>
+                                        <div class="price__price">250 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Комплект манишек (6 шт.)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 игра</div>
+                                        <div class="price__price">250 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Фишки тренировочные</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 игра</div>
+                                        <div class="price__price">250 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Судейский набор <span>(свисток, карточки)</span></div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 игра</div>
+                                        <div class="price__price">200 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Аренда полотенца</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">50 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__item">
+                                <div class="price__title-small">Фотоуслуги</div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Фотосъёмка игры</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 1500 ₽/час </div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier price__text-contaier-sub">
+                                        <div class="price__text-text">Фотосъёмка мероприятия</div>
+                                        <div class="price__text-subtext">Игровые, командные фото, закрытия, открытия</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 1500 ₽/час </div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier price__text-contaier-sub">
+                                        <div class="price__text-text">Фотоуслуги турнира</div>
+                                        <div class="price__text-subtext">Фотосъёмка мероприятия, персональные, на фотокарточки</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 1500 ₽/час </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__item">
+                                <div class="price__title-small">Видеоуслуги</div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Видеосъёмка </div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 2000 ₽/час</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Видео с камер наблюдения (2 шт.)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">700 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Видеонарезка моментов с камер наблюдения (2 шт.)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 1000 ₽/час</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Видеосъёмка турнира</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 2000 ₽/час </div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Видеонарезка с камеры</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">1500 ₽/час </div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Видеоклип по турниру</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__price">от 3000 ₽/час</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__item">
+                                <div class="price__title-small">Развлечения</div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Бампербол (Поле №5, Поле №6)</div>
+                                        <div class="price__date">(с 09:00-16:00)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">4700 ₽ </div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Бампербол (Поле №5, Поле №6)</div>
+                                        <div class="price__date">(с 16:00-23:00)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">5900 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Бампербол (Поле №5, Поле №6)</div>
+                                        <div class="price__date">(с 09:00-23:00)</div>
+                                        <div class="price__weekend">выходной</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">250 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Нёрф-баттл (Поле №6)</div>
+                                        <div class="price__date">(с 09:00-16:00)</div>
+                                        <div class="price__weekend">выходной</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">1000 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Нёрф-баттл (Поле №6)</div>
+                                        <div class="price__date">(с 16:00-23:00)</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">1400 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="price__content">
+                                    <div class="price__text-contaier">
+                                        <div class="price__text-text">Нёрф-баттл (Поле №6)</div>
+                                        <div class="price__date">(с 09:00-23:00)</div>
+                                        <div class="price__weekend">выходной</div>
+                                    </div>
+                                    <div class="price__value-container">
+                                        <div class="price__time">1 час</div>
+                                        <div class="price__price">1400 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="call">
+                <div class="call__container _container">
+                    <div class="call__body">
+                        <div class="call__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2002.1431989948726!2d30.394176089750715!3d59.87997195052022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962fc2979e1d8f%3A0xed116a2b9304468!2z0KTQsNCx0YDQuNC60LAg0KTRg9GC0LHQvtC70LA!5e0!3m2!1sru!2sru!4v1677868905313!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="call__content">
+                            <h2 class="call__title">ЗАКАЖИТЕ ЗВОНОК</h2>
+                            <div class="call__subtitle">Заполните форму, и наш специалист свяжется с Вами для подтверждения заказа:</div>
+                            <form action="get" class="call__form">
+                                <input type="text" class="call__input call__input-1" placeholder="Ваше ФИО">
+                                <input type="text" class="call__input call__input-2" placeholder="С какого вы города?">
+                                <input type="tel" class="call__input call__input-3 tel" placeholder="+7 (___) ___-__-__">
+                                <button class="call__btn">Отправить!</button>
+                                <div class="call__text">Нажимая на кнопку «Отправить!», вы даёте согласие на обработку <span>персональных данных</span> и соглашаетесь с <span>Политикой конфиденциальности</span></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__body">
+                    <img src="images/footer/logo.png" alt="footer__logo" class="footer__logo">
+                    <div class="footer__navbar navbar__footer">
+                        <div class="navbar__footer-item navbar__footer-item-1">
+                            <div class="navbar__footer-item-icon icon-phone"></div>
+                            <a class="navbar__footer-text" href="#">info@ff.ru.net</a>
+                        </div>
+                        <div class="navbar__footer-item navbar__footer-item-2">
+                            <div class="navbar__footer-item-icon icon-geo"></div>
+                            <a class="navbar__footer-text" href="#">192102, Санкт-Петербург, ул. Софийская, д.14 
+                                Спортивный центр «Фабрика Футбола»</a>
+                        </div>
+                        <div class="navbar__footer-item navbar__footer-item-3">
+                            <div class="navbar__footer-item-icon icon-email"></div>
+                            <a class="navbar__footer-text" href="tel:+78123226555">+7 (812) 322-6-555</a>
+                        </div>
+                    </div>
+                    <a href="#" class="footer__road">Как добраться?</a>
+                    <div class="footer__list list__footer">
+                        <div class="list__footer-item list__footer-item-1" data-item="1">
+                            <div class="list__footer-title icon-arrow-down-svgrepo-com" data-title="1">Аренда полей</div>
+                            <a href="" class="list__footer-text">Поле для футбола</a>
+                            <a href="" class="list__footer-text">Корт для бадминтона</a>
+                            <a href="" class="list__footer-text">Поле для флорбола</a>
+                        </div>
+                        <div class="list__footer-item list__footer-item-2" data-item="2">
+                            <div class="list__footer-title icon-arrow-down-svgrepo-com" data-title="2">Услуги</div>
+                            <a href="" class="list__footer-text">Детские праздники</a>
+                            <a href="" class="list__footer-text">Нёрфинг (нёрф-баттл)</a>
+                            <a href="" class="list__footer-text">Бампербол</a>
+                            <a href="" class="list__footer-text">Веселые старты</a>
+                            <a href="" class="list__footer-text">Реклама на мероприятиях</a>
+                        </div>
+                        <div class="list__footer-item list__footer-item-3" data-item="3">
+                            <div class="list__footer-title icon-arrow-down-svgrepo-com" data-title="3">Прайс-лист</div>
+                            <a href="" class="list__footer-text">Акции</a>
+                            <a href="" class="list__footer-text">Новости</a>
+                            <a href="" class="list__footer-text">О нас</a>
+                            <a href="" class="list__footer-text">Контакты</a>
+                        </div>
+                        <div class="list__footer-item list__footer-item-4" data-item="4">
+                            <div class="list__footer-title icon-arrow-down-svgrepo-com" data-title="4">Корпоративным клиентам</div>
+                            <a href="" class="list__footer-text">Реклама на мероприятиях</a>
+                            <a href="" class="list__footer-text">Правовая информация</a>
+                            <a href="" class="list__footer-text">Доступная среда</a>
+                            <a href="" class="list__footer-text">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="footer__social">
+                        <div class="footer__social-icon footer__social-icon-1 icon-telegram"></div>
+                        <div class="footer__social-icon icon-vk"></div>
+                    </div>
+                    <div class="footer__bottom-text"> 2023. Фабрика Футбола .Все права защищены</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swup@3"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
