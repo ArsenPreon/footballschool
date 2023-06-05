@@ -663,7 +663,8 @@ document.addEventListener('click', documentActions);
 
 
 swup.on('contentReplaced', function() {
-    main()
+    main();
+    window.scrollTo({ top: 0});
 });
 
 main()
