@@ -1,0 +1,43 @@
+@import "vars";
+
+
+._container {
+    max-width: $maxWidthContainer;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+._ibg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+    
+._ibg img{
+
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+// <div class="main__title-container">
+//     <h3 class="main__title-title">ЕЩЕ БОЛЬШЕ ВОЗМОЖНОСТЕЙ!?</h3>
+//     <div class="main__title-btn-container">
+//         <div class="main__title-btn-text">Помочь с выбором?</div>
+//         <div class="main__title-btn-icon icon-vopros"></div>
+//     </div>
+// </div>
+
+
+// <div class="start__slider-controls controls">
+//     <div class="controls__arrow controls__arrow-prev icon-arrow-right-light"></div>
+//     <div class="controls__dotts"></div>
+//     <div class="controls__arrow controls__arrow-next icon-arrow-right-light"></div>
+// </div>
